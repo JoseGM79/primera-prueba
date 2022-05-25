@@ -1,0 +1,293 @@
+@font-face{
+    font-family: row;
+    src: url(fonts/Rowdies-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: quick;
+    src: url(fonts/Quicksand-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+body{
+    background: url('img/dynamic-style.png');
+    background-attachment: fixed;
+}
+
+#container{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    background: whitesmoke;
+    margin-top: 10px;
+}
+
+#header{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+}
+
+#rotulo{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 150px;
+    background: rgba(30, 30, 30, 0.7);
+    box-shadow: 0px 0px 10px #444;
+}
+
+#rotulo h1, h2{
+    display: block;
+    margin: 0px auto;
+    margin-top: 25px;
+    width: 95%;
+    height: auto;
+    font-family: row;
+    font-size: 45px;
+    font-weight: lighter;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#menu{
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    background: rgba(30, 30, 30, 0.7);
+    box-shadow: 0px 0px 10px #444;
+}
+
+#menu ul{
+    width: 100%;
+    height: 100%;
+}
+
+#menu ul li{
+    display: inline-block;
+    height: 100%;
+    width: 19%;
+}
+
+#menu ul li a{
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: row;
+    font-weight: lighter;
+    font-size: 18px;
+    transition: all 500ms;
+}
+
+#menu ul li a:hover{
+    transform: scale(1.2);
+    color: red;
+}
+
+#content{
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 75%;
+    height: auto;
+}
+
+#foto{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#foto img{
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px #444;
+}
+
+#texto{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    font-family: row;
+    font-family: quick;
+    font-size: 25px;
+    color: #444;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-indent: 35px;
+}
+
+#lateral{
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 20%;
+    height: auto;
+}
+
+#tiempo{
+    text-align: center;
+}
+
+#pie{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: rgba(30, 30, 30, 0.7);
+    box-shadow: 0px 0px 10px #444;
+}
+
+#firma{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: row;
+    font-size: 20px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.subir{
+    display: block;
+    width: auto;
+    padding: 5px;
+    text-align: right;
+    font-family: quick;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.subir:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/*pagina de datos*/
+
+#texto2{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    font-family: row;
+    font-family: quick;
+    font-size: 25px;
+    color: #444;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+#pdf{
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #444;
+    background: #444;
+    font-family: quick;
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 40px;
+    transition: all 500ms;
+}
+
+#pdf:hover{
+    transform: scale(1.2);
+    background: whitesmoke;
+    color: #444;
+
+}
+
+#imagenes{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ima{
+    display: block;
+    float: left;
+    width: 45%;
+    margin: 15px;
+}
+
+/*contacto*/
+
+#tlf{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+#ntlf{
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-family: quick;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+#arroba{
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-family: quick;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 180px;
+}
+
+#mail{
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-family: quick;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #444;
+    transition: all 500ms;
+}
+
+#mail:hover{
+    transform: scale(1.2);
+    color: blue;
+}
